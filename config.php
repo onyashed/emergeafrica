@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 //'F:\\xampp\\moodledata';
-$CFG->wwwroot   = 'http://localhost/moodleinit';
-$CFG->dataroot  = getenv('MDL_DATA_ROOT');
+$CFG->wwwroot   = 'http://emergeafrica.herokuapp.com/';
+$CFG->dataroot  = '/tmp';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
